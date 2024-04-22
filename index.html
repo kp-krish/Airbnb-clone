@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb clone</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/d6a7a14b13.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,1,0" />
+
+</head>
+
+<body class="">
+
+    <header class="border-b-[1.5px]">
+
+        <!-- Navbar Bar -->
+        <div class="w-11/12 mx-auto pb-4">
+
+            <div class="grid grid-cols-3 h-20 items-center">
+                <img src="./assets/airbnb-logo.png" alt="" class="h-16 w-28">
+
+                <div class="flex justify-evenly">
+                    <button class="font-semibold rounded-full px-4 py-2">Stays</button>
+                    <button
+                        class="text-neutral-600 rounded-full hover:bg-neutral-100 hover:text-black px-4 py-2">Experiences</button>
+                    <button class="text-neutral-600 rounded-full hover:bg-neutral-100 hover:text-black px-4 py-2">Online
+                        Experiences</button>
+                </div>
+
+                <div class="flex justify-end items-center gap-4">
+                    <button class="text-sm font-semibold rounded-full hover:bg-neutral-100 px-4 py-2">Airbnb your
+                        home</button>
+                    <span class="material-symbols-outlined rounded-full hover:bg-neutral-100 px-2 py-2 cursor-pointer">
+                        language
+                    </span>
+                    <div
+                        class="flex justify-evenly items-center gap-2 rounded-full border h-12 w-20 py-1.25 pr-1.25 pl-3 cursor-pointer hover:shadow-md">
+                        <i class="fa-solid fa-bars"></i>
+                        <button class="bg-neutral-500 px-2 py-1 rounded-full"><i class="fa-solid fa-user"
+                                style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex border shadow-md rounded-full justify-around items-center w-[75%] mx-auto h-16 pl-8">
+                <div class="">
+                    <div class="flex flex-col m-3 border-r-[1.5px] pr-7">
+                        <span class="text-sm font-semibold">Where</span>
+                        <input class="text-sm outline-none" type="text" placeholder="Search destinations">
+                    </div>
+                </div>
+                <div>
+
+                    <div class="flex flex-col m-3 border-r-[1.5px] pr-7">
+                        <span class="text-sm font-semibold">Date</span>
+                        <input class="text-sm outline-none" type="text" placeholder="Add dates">
+                    </div>
+                </div>
+                <div>
+                </div>
+                <div>
+
+                    <div class="flex flex-col m-3">
+                        <span class="text-sm font-semibold">Who</span>
+                        <input class="text-sm outline-none" type="text" placeholder="Add guests">
+                    </div>
+                </div>
+                <button class="bg-red-500 text-white rounded-full py-3 px-4 mr-3">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </button>
+            </div>
+        </div>
+
+
+
+        <!-- Price Bar -->
+
+    </header>
+
+    <!-- Hotel information -->
+    <main>
+
+        <!-- Category Bar -->
+        <div class="flex justify-center items-center w-11/12 mx-auto h-24 gap-8">
+            <div class="flex justify-center items-center gap-10">
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type11.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">OMG!</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type8.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Bed & breakfasts</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type12.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Countryside</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type3.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Mansions</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type4.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">National parks</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type7.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Design</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap-2 pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type6.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Cabins</p>
+
+                </div>
+                <div
+                    class="flex flex-col items-center text-neutral-500 hover:text-black gap- pb-2 border-b-2 border-transparent hover:border-black cursor-pointer">
+                    <img src="./assets/type10.jpeg" alt="" class="h-6 w-6">
+                    <p class="text-xs font-semibold">Tropical</p>
+
+                </div>
+            </div>
+
+            <!-- <span class="material-symbols-outlined hover:scale-105 cursor-pointer">arrow_circle_right</span> -->
+            <div class="flex justify-center items-center gap-5">
+                <i class="fa-solid fa-circle-chevron-right fa-xl cursor-pointer" style="color: #000000;"></i>
+                <div
+                    class="flex justify-center items-center border-[1.5px] border-solid rounded-xl px-4 py-3 gap-3 cursor-pointer">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p class="text-sm">Filters</p>
+                </div>
+
+                <div
+                    class="flex justify-center items-center border-[1.5px] border-solid rounded-xl px-3 py-[2px] gap-3 cursor-pointer">
+                    <p class="text-sm">Display total before taxes</p>
+                    <span style="font-size: 48px;"
+                        class="material-symbols-outlined text-neutral-500 hover:text-black">toggle_off</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Hotels -->
+        <div class="w-11/12 mx-auto">
+
+            <div class="grid grid-cols-4 grid-rows-3 gap-7">
+                <div class="flex flex-col h-96 w-70">
+                    <img src="./assets/img1.jpg" alt="" class="w-70 h-64 rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-semibold">Lonavla, India</p>
+
+                        <div class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <p class="text-sm font-semibold">5.0</p>
+                        </div>
+
+                    </div>
+                    <p class="text-sm text-neutral-500">62 Kilometers Away</p>
+                    <p class="text-sm text-neutral-500">30 Jul-4 aug</p>
+                    <p class="text-sm font-medium mt-1"><span class="font-semibold">&#8377;42,701</span> night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-70">
+                    <img src="./assets/img2.jpg" alt="" class="w-70 h-64 rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-semibold">Taj Mahal Palace, Mumbai</p>
+                        <div class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <p class="text-sm font-semibold">4.5</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-neutral-500">15 Kilometers Away</p>
+                    <p class="text-sm text-neutral-500">15 Aug-20 Aug</p>
+                    <p class="text-sm font-medium mt-1"><span class="font-semibold">&#8377;20,000</span> night</p>
+                </div>
+
+                <!-- Hotel 3 -->
+                <div class="flex flex-col h-96 w-70">
+                    <img src="./assets/img3.jpg" alt="" class="w-70 h-64 rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-semibold">The Leela Palace, Chennai</p>
+                        <div class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <p class="text-sm font-semibold">4.2</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-neutral-500">25 Kilometers Away</p>
+                    <p class="text-sm text-neutral-500">10 Sep-15 Sep</p>
+                    <p class="text-sm font-medium mt-1"><span class="font-semibold">&#8377;15,700</span> night</p>
+                </div>
+
+                <!-- Repeat the above code with different data for each hotel -->
+                <!-- Hotel 4 -->
+                <div class="flex flex-col h-96 w-70">
+                    <img src="./assets/img4.jpg" alt="" class="w-70 h-64 rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-semibold">The Oberoi, New Delhi</p>
+                        <div class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-star" style="color: #000000;"></i>
+                            <p class="text-sm font-semibold">4.6</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-neutral-500">20 Kilometers Away</p>
+                    <p class="text-sm text-neutral-500">5 Oct-10 Oct</p>
+                    <p class="text-sm font-medium mt-1"><span class="font-semibold">&#8377;18,900</span> night</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+</body>
+
+</html>
